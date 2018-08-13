@@ -1,5 +1,5 @@
 <?php
-echo "Hello LINE BOT";
+echo "Test send message";
 
 <?php
 
