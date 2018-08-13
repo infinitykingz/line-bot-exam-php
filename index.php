@@ -1,8 +1,6 @@
 <?php
 echo "Test send message";
 
-<?php
-
 require "vendor/autoload.php";
 
 $access_token = 'W9mSbH8dLHWGD65wwrXW76c+/XgpT8OlOCtkCIfvaEVDr7WZ1Z3j2Vq9Oa9fq6SKKe6oQtKAUrzLieiWwESIe/Ad2MbxXTyrVHyAHwl2X2AGAfZ8tDv72avSj7potdhgPQaNhj1ctb53MxtUf6kU+QdB04t89/1O/w1cDnyilFU=';
@@ -21,3 +19,4 @@ $response = $bot->pushMessage($idPush, $textMessageBuilder);
 
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
+?>
